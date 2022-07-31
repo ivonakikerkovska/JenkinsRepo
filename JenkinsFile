@@ -22,11 +22,10 @@ pipeline {
       jacoco()
       }
     }
-    stage ('DEV Deploy') {
+     stage ('Nexus Upload') {
       steps {
-      echo "deploying to DEV Env "
-    deploy adapters: [tomcat9(path: '', url: 'http://localhost:8080')], contextPath: null, war: ' **/*.war'
-     }
+      nexusArtifactUploader artifacts: [[artifactId: 'MyWebApp', classifier: '', file: 'MyWebApp/target/MyWebApp.war', type: 'war']], credentialsId: '', groupId: 'com.dept.app', nexusUrl: 'localhost:8081', nexusVersion: 'nexus2', protocol: 'http', repository: 'maven-snaphots', version: '1.0-SNAPSHOT'
+       }
     }
     stage ('Slack Notification') {
       steps {
