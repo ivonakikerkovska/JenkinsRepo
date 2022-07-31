@@ -24,7 +24,7 @@ pipeline {
     }
      stage ('Nexus Upload') {
       steps {
-      nexusArtifactUploader artifacts: [[artifactId: 'MyWebApp', classifier: '', file: 'MyWebApp/target/MyWebApp.war', type: 'war']], credentialsId: '', groupId: 'com.dept.app', nexusUrl: 'http://localhost:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'jenkins-repo', version: '1.0-SNAPSHOT'
+     nexusArtifactUploader artifacts: [[artifactId: 'MyWebApp', classifier: '', file: 'MyWebApp/target/MyWebApp.war', type: 'war']], credentialsId: '', groupId: 'com.dept.app', nexusUrl: 'localhost:8081/repository/jenkins-repo/', nexusVersion: 'nexus3', protocol: 'http', repository: 'jenkins-repo', version: '1.0-SNAPSHOT'
        }
     }
      stage ('DEV Deploy') {
