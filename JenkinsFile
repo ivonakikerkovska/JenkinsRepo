@@ -37,7 +37,6 @@ pipeline {
       classifier: '',
       file: 'MyWebApp/target/MyWebApp.war',
       type: 'war']
-      }
     }
     stage ('DEV Deploy') {
       steps {
