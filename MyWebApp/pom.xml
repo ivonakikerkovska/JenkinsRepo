@@ -12,7 +12,7 @@
          <id>maven-snapshots</id>
          <url>http://localhost:8081/#browse/browse:maven-snapshots</url>
          </snapshotRepository>
-    </distributionManagement
+    </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
