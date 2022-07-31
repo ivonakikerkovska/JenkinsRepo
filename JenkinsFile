@@ -24,7 +24,7 @@ pipeline {
     }
         stage ('Nexus Upload') {
       steps {
-      nexusArtifactUploader artifacts: [[artifactId: 'MyWebApp', classifier: '', file: 'MyWebApp/target/MyWebApp.war', type: 'war']], credentialsId: '', groupId: 'com.dept.app', nexusUrl: 'localhost:8081', nexusVersion: 'nexus2', protocol: 'http', repository: 'maven-snaphots', version: '1.0-SNAPSHOT'
+      nexusArtifactUploader artifacts: [[artifactId: 'MyWebApp', classifier: '', file: 'target/MyWebApp-1.0-SNAPSHOT.war', type: 'war']], credentialsId: '', groupId: 'com.dept.app', nexusUrl: 'localhost:8081', nexusVersion: 'nexus2', protocol: 'http', repository: 'maven-snaphots', version: '1.0-SNAPSHOT'
        }
     }
     stage ('DEV Deploy') {
