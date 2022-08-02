@@ -16,14 +16,14 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>MyWebApp</finalName>
+    <finalName>MyWebApp</finalName>	
+<plugins>
 <distributionManagement>
 <snapshotRepository>
 	<id>nexus-snapshots</id>
 	<url>http://localhost:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
-</distributionManagement>	
-<plugins>
+</distributionManagement>
 <plugin>
 	<artifactId>maven-deploy-plugin</artifactId>
 	<version>2.8.1</version>
