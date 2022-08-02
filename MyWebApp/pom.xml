@@ -7,12 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-	<distributionManagement>
-<snapshotRepository>
-	<id>nexus-snapshots</id>
-	<url>http://localhost:8081/repository/maven-snapshots/</url>
-</snapshotRepository>
-</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -21,6 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	<distributionManagement>
+<snapshotRepository>
+	<id>nexus-snapshots</id>
+	<url>http://localhost:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>MyWebApp</finalName>
 	  <plugins>
