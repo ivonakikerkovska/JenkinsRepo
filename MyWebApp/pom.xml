@@ -13,7 +13,17 @@
 	<url>http://localhost:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
 </distributionManagement>
-	<plugins>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>MyWebApp</finalName>
+	  <plugins>
 <plugin>
 	<artifactId>maven-deploy-plugin</artifactId>
 	<version>2.8.1</version>
@@ -57,15 +67,5 @@
 	</configuration>
 	</plugin>
 	</plugins>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  <build>
-    <finalName>MyWebApp</finalName>
   </build>
 </project>
