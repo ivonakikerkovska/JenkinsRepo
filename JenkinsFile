@@ -4,12 +4,6 @@ pipeline {
   tools {
   maven 'Maven33'
   }
-  environment {
-    NEXUS_VERSION = "nexus3"
-    NEXUS_PROTOCOL = "http"
-    NEXUS_URL = "localhost:8081"
-    NEXUS_RPOSITORY = "jenkins-repo"
-  }
   stages {
     stage ('Build') {
       steps {
