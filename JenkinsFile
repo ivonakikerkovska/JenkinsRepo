@@ -36,7 +36,7 @@ pipeline {
      stage ('DEV Deploy') {
       steps {
       echo "deploying to DEV Env "
-    deploy adapters: [tomcat9(path: '', url: 'http://localhost:8080')], contextPath: 'C:\\Windows\\ServiceProfiles\\LocalService\\.jenkins\\workspace\\JenkinsProject\\MyWebApp\\target', onFailure: false, war: '**/*.war*'
+    deploy adapters: [tomcat9(path: '', url: 'http://localhost:8080')], contextPath: null, war: '**/*.war*'
      }
     }
     stage ('Slack Notification') {
