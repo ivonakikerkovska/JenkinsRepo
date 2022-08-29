@@ -3,6 +3,16 @@
   <head>
     <title>My Java Web App</title>
   </head>
+  <style>  
+ul {  
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0;  
+}  
+body {  
+background-color: #E6E6FA;  
+}  
+</style> 
 <body>  
 <h1>Welcome</h1>  
 <ul>  
@@ -11,5 +21,6 @@
   <li><a href="#">Contact</a></li>  
   <li><a href="#">About</a></li>  
 </ul>  
+  <img alt="image" src="image.pnh" width="300" height="200"> 
 </body>
 </html>
