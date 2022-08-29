@@ -14,13 +14,13 @@ background-color: #E6E6FA;
 }  
 </style> 
 <body>  
-<h1>Welcome</h1>  
+<h1>Welcome to Jenkins office site</h1>  
 <ul>  
   <li><a href="#">Home</a></li>  
   <li><a href="#">News</a></li>  
   <li><a href="#">Contact</a></li>  
-  <li><a href="#">About</a></li>  
+  <li><a href="#">Documentation</a></li>  
 </ul>  
-  <img alt="image" src="image.pnh" width="300" height="200"> 
+  <img alt="image" src="image.png" width="300" height="200"> 
 </body>
 </html>
