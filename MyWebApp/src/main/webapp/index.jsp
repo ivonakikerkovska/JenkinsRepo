@@ -3,7 +3,13 @@
   <head>
     <title>My Java Web App</title>
   </head>
-<body>
-<h2>Hello World!</h2>
+<body>  
+<h1>Welcome</h1>  
+<ul>  
+  <li><a href="#">Home</a></li>  
+  <li><a href="#">News</a></li>  
+  <li><a href="#">Contact</a></li>  
+  <li><a href="#">About</a></li>  
+</ul>  
 </body>
 </html>
