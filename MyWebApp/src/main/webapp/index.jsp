@@ -21,6 +21,6 @@ background-color: #E6E6FA;
   <li><a href="#">Contact</a></li>  
   <li><a href="#">Documentation</a></li>  
 </ul>  
-  <img alt="image" src="image.png" width="300" height="200"> 
+  <img alt="image" src="image.ipg" width="400" height="300"> 
 </body>
 </html>
