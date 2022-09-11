@@ -5,7 +5,7 @@
        body{
   font-size:20px;
            color: white;
-           background-size: cover; 
+           background-size:cover; 
       }
      .box{ width: 800px;
       float:right;
@@ -78,8 +78,7 @@ transition: all ease 0.5s;
   </style>
 </head>
 <body>
-    background-image: url("https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2020/02/terra_images_ambience.jpg");
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(function(){
 var image = $(".mainmenu").find('img').attr('src');
@@ -101,7 +100,7 @@ $(this).parent().find('img').attr("src", newimg);
   <div class="wd">
 <h1> Welcome to Delicious Corner</h1>
 <h4> <em>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
-<h2> Call 999999999 for reservations</h2>
+<h2> Call 070-472-552 for reservations</h2>
 <div class="opt">
 <form action="" method="post">
 <input type="button" value="ORDER NOW">
