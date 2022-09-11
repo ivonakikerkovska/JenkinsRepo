@@ -91,14 +91,14 @@ $(this).parent().find('img').attr("src", newimg);
   <div class="box">
 <div class="mainmenu">
 <img src="food.png">
-<a data-image = "food.png" href=""> Home</a>
-<a data-image = "menucard.jpg" href=""> Menu</a>
+<a data-image = "food.png" href="https://hackr.io/blog/media/interactive-restaurant-website.png?ezimgfmt=rs:714x359/rscb1/ng:webp/ngcb1"> Home</a>
+<a data-image = "menucard.jpg" href="https://hackr.io/blog/media/menu-navigation.png?ezimgfmt=rs:512x274/rscb1/ng:webp/ngcb1"> Menu</a>
 <a href=""> FAQ</a>
 <a href=""> Contact</a>
 </div>
   </div>
   <div class="wd">
-<h1> Welcome to xxx</h1>
+<h1> Welcome to Delicious corner</h1>
 <h4> <i>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
 <h2> Call 999999999 for reservations</h2>
 <div class="opt">
