@@ -3,10 +3,13 @@
 <head>
    <style>
        body{
+  background-image="corner.png" href"https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg" ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+   background-size: cover;
   font-size:20px;
-           color: blue;
+           color: white;
            background-size: cover;
-          background-image:https://media-cdn.tripadvisor.com/media/photo-s/18/09/5f/2e/terrace.jpg ;
        }
         .box{ width: 800px;
       float:right;
