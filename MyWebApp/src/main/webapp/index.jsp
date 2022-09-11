@@ -90,7 +90,7 @@ $(this).parent().find('img').attr("src", newimg);
 </script>
   <div class="box">
 <div class="mainmenu">
-<a data-image = "food.png" href="https://designwanted.com/wp-content/uploads/2022/02/plant-featured-scaled.jpg">
+<img src="corner.png">
 <a data-image = "food.png" href="https://media-cdn.tripadvisor.com/media/photo-s/18/09/5f/2e/terrace.jpg"> Home</a>
 <a data-image = "menucard.jpg" href="https://img.freepik.com/premium-vector/food-menu-design-template-restaurant_619264-58.jpg?w=2000"> Menu</a>
 <a href=""> FAQ</a>
