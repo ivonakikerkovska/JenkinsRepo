@@ -99,11 +99,12 @@ $(this).parent().find('img').attr("src", newimg);
 });
 </script>
   <div class="box">
+     <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
 <div class="mainmenu">
 <img src="corner.png">
 <a data-image = "corner.png" href=""> Home</a>
 <a data-image = "menucard.jpg" href="https://img.freepik.com/premium-vector/food-menu-design-template-restaurant_619264-58.jpg?w=2000"> Menu</a>
-<a href="https://resources.finalsite.net/images/f_auto,q_auto/v1543217698/elmhurst205org/uhb19xgtdenn7okqsyjc/5334151411957024135.png"> FAQ</a>
+<a href=""> FAQ</a>
 <a href=""> Contact</a>
 </div>
   </div>
