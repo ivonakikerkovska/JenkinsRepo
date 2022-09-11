@@ -99,8 +99,8 @@ $(this).parent().find('img').attr("src", newimg);
 </script>
   <div class="box">
 <div class="mainmenu">
-<img src="corner.png">
-<a data-image = "corner.png" href=""> Home</a>
+<img src="">
+<a data-image ="" href=""> Home</a>
 <a data-image = "menucard.jpg" href="https://img.freepik.com/premium-vector/food-menu-design-template-restaurant_619264-58.jpg?w=2000"> Menu</a>
 <a href=""> FAQ</a>
 <a href=""> Contact</a>
