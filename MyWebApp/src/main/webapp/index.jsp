@@ -92,7 +92,7 @@ $(this).parent().find('img').attr("src", newimg);
 <div class="mainmenu">
 <img src="food.png">
 <a data-image = "food.png" href="https://media-cdn.tripadvisor.com/media/photo-s/18/09/5f/2e/terrace.jpg"> Home</a>
-<a data-image = "https://thumbs.dreamstime.com/z/restaurant-menu-modern-design-layout-dietary-restriction-symbols-main-font-futura-restaurant-menu-modern-design-layout-170652287.jpg"> Menu</a>
+<a data-image = "menucard.jpg" href="https://img.freepik.com/premium-vector/food-menu-design-template-restaurant_619264-58.jpg?w=2000"> Menu</a>
 <a href=""> FAQ</a>
 <a href=""> Contact</a>
 </div>
