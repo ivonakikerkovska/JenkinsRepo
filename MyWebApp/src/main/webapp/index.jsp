@@ -9,7 +9,7 @@
       }
       .bg-image {
          background-image: url("corner.png");
-         background-color: #cccccc;
+         background-color: white;
          height: 500px;
          background-position: center;
          background-repeat: no-repeat;
@@ -97,7 +97,6 @@ var newimg = $(this).attr('data-image');
 $(this).parent().find('img').attr("src", newimg);
 });
 });
-   <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
 </script>
   <div class="box">
 <div class="mainmenu">
@@ -118,5 +117,6 @@ $(this).parent().find('img').attr("src", newimg);
 </form>
 </div>
 </div>
+      <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
 </body>
 </html>
