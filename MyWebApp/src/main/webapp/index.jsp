@@ -88,7 +88,6 @@ transition: all ease 0.5s;
 </head>
 <body>
    <div class="bg-image">
-      <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(function(){
@@ -98,6 +97,7 @@ var newimg = $(this).attr('data-image');
 $(this).parent().find('img').attr("src", newimg);
 });
 });
+   <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
 </script>
   <div class="box">
 <div class="mainmenu">
