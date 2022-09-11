@@ -9,7 +9,7 @@
            background-size: cover; 
        }
       .bg-image {
-background-image:https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg;
+background-image = href"https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg";
 background-color: #cccccc;
 height: 800px;
 background-position: center;
