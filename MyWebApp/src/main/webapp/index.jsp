@@ -107,7 +107,6 @@ $(this).parent().find('img').attr("src", newimg);
 <a href=""> Contact</a>
 </div>
   </div>
-      <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
   <div class="wd">
 <h1> Welcome to Delicious Corner</h1>
 <h4> <em>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
@@ -115,6 +114,7 @@ $(this).parent().find('img').attr("src", newimg);
 <div class="opt">
 <form action="" method="post">
 <input type="button" value="ORDER NOW">
+   <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
 </form>
 </div>
 </div>
