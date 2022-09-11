@@ -4,8 +4,9 @@
    <style>
        body{
   font-size:20px;
-           color: white;
+           color: blue;
            background-size: cover;
+          <img src="corner.png" alt="Italian Trulli">
        }
         .box{ width: 800px;
       float:right;
@@ -89,8 +90,6 @@ $(this).parent().find('img').attr("src", newimg);
 });
 </script>
   <div class="box">
- <img src="corner.png">
-<a data-image = "food.png" href="https://media-cdn.tripadvisor.com/media/photo-s/18/09/5f/2e/terrace.jpg"> Home</a>
 <div class="mainmenu">
 <img src="corner.png">
 <a data-image = "food.png" href="https://media-cdn.tripadvisor.com/media/photo-s/18/09/5f/2e/terrace.jpg"> Home</a>
