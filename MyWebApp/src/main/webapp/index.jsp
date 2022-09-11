@@ -6,7 +6,7 @@
   font-size:20px;
            color: blue;
            background-size: cover;
-          <img src="corner.png" alt="Italian Trulli">
+          background-image:https://media-cdn.tripadvisor.com/media/photo-s/18/09/5f/2e/terrace.jpg ;
        }
         .box{ width: 800px;
       float:right;
