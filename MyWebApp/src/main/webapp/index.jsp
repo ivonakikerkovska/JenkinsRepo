@@ -86,7 +86,6 @@ transition: all ease 0.5s;
 </head>
 <body>
    <div class="bg-image">
-       <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(function(){
@@ -104,6 +103,7 @@ $(this).parent().find('img').attr("src", newimg);
 <a data-image = "menucard.jpg" href="https://img.freepik.com/premium-vector/food-menu-design-template-restaurant_619264-58.jpg?w=2000"> Menu</a>
 <a href=""> FAQ</a>
 <a href=""> Contact</a>
+   <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
 </div>
   </div>
   <div class="wd">
