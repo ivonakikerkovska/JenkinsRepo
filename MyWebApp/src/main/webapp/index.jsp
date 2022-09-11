@@ -78,7 +78,10 @@ transition: all ease 0.5s;
   </style>
 </head>
 <body>
-   <img src="https://wander-argentina.com/wp-content/uploads/2011/07/Dining-san-telmo-market.jpg">
+    background-image: url('https://wander-argentina.com/wp-content/uploads/2011/07/Dining-san-telmo-market.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(function(){
