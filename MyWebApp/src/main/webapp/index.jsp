@@ -8,7 +8,7 @@
            background-size:cover; 
       }
       .bg-image {
-         background-image: url("bg2.jpg");
+         background-image: url("corner.png");
          background-color: #cccccc;
          height: 500px;
          background-position: center;
@@ -20,7 +20,7 @@
       float:right;
       border:1px solid none;}
       .box ul li{
-          width: 100px;
+          width: 90px;
           float:left;
           margin: 10px auto;
           text-align: center;
