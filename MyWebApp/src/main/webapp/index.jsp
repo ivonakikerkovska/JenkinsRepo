@@ -9,9 +9,9 @@
            background-size: cover; 
        }
       .bg-image {
-background-image: https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg;
+background-image:https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg;
 background-color: #cccccc;
-height: 500px;
+height: 800px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -100,8 +100,8 @@ $(this).parent().find('img').attr("src", newimg);
 </script>
   <div class="box">
 <div class="mainmenu">
-<img src="corner.png">
-<a data-image = "food.png" href="https://media-cdn.tripadvisor.com/media/photo-s/18/09/5f/2e/terrace.jpg"> Home</a>
+<img src="">
+<a data-image = "" href=""> Home</a>
 <a data-image = "menucard.jpg" href="https://img.freepik.com/premium-vector/food-menu-design-template-restaurant_619264-58.jpg?w=2000"> Menu</a>
 <a href=""> FAQ</a>
 <a href=""> Contact</a>
