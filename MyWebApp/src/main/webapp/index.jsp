@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
    <style>
        body{
   font-size:20px;
            color: white;
            background-size: cover; 
-       }
-      .bg-image {
-background-image = href"https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg";
-background-color: #cccccc;
-height: 800px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-}
-        .box{ width: 800px;
+          background-image = href"https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg";
+            background-color: #cccccc;
+            height: 800px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+          
+       .box{ width: 800px;
       float:right;
       border:1px solid none;}
       .box ul li{
