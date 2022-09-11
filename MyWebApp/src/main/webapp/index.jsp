@@ -7,11 +7,20 @@
            color: white;
            background-size:cover; 
       }
+      .bg-image {
+         background-image: url("bg2.jpg");
+         background-color: #cccccc;
+         height: 500px;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+}
      .box{ width: 800px;
       float:right;
       border:1px solid none;}
       .box ul li{
-          width: 120px;
+          width: 100px;
           float:left;
           margin: 10px auto;
           text-align: center;
@@ -78,10 +87,7 @@ transition: all ease 0.5s;
   </style>
 </head>
 <body>
-    background-image: url('https://wander-argentina.com/wp-content/uploads/2011/07/Dining-san-telmo-market.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+   <div class="bg-image">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(function(){
