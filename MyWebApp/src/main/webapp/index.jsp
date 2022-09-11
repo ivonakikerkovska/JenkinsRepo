@@ -11,9 +11,9 @@
          background-image: url("corner.png");
          background-color: white;
          height: 500px;
-         background-position: right;
+         background-position: left;
          background-repeat: no-repeat;
-         background-size: cover;
+         background-size: 100px;
          position: relative;
 }
      .box{ width: 800px;
