@@ -13,8 +13,7 @@
          height: 800px;
          background-position: right center;
          background-repeat: no-repeat;
-         position: relative;
-}
+         }
      .box{ width: 800px;
       float:right;
       border:1px solid none;}
@@ -87,6 +86,7 @@ transition: all ease 0.5s;
 </head>
 <body>
    <div class="bg-image">
+       <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(function(){
@@ -108,7 +108,6 @@ $(this).parent().find('img').attr("src", newimg);
   </div>
   <div class="wd">
 <h1> Welcome to Delicious Corner</h1>
-     
 <h4> <em>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
 <h2> Call 070-472-552 for reservations</h2>
 <div class="opt">
