@@ -7,7 +7,7 @@
            color: white;
            background-size: cover;
        }
-        .box{ width: 900px;
+        .box{ width: 800px;
       float:right;
       border:1px solid none;}
       .box ul li{
@@ -22,7 +22,7 @@
 .mainmenu img{
 position: fixed;
 z-index: -1;
-top:0px; left:0px; width:100%; height: 100vh;
+top:10px; left:10px; width:100%; height: 100vh;
 opacity: 0.9;
 /*object-fit:cover;*/
 transition: all ease 0.5s;
