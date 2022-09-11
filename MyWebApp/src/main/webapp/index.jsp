@@ -6,7 +6,6 @@
   font-size:20px;
            color: white;
            background-size: cover; 
-          background-image = href"https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg";
       }
      .box{ width: 800px;
       float:right;
@@ -79,6 +78,7 @@ transition: all ease 0.5s;
   </style>
 </head>
 <body>
+    background-image: url("https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2020/02/terra_images_ambience.jpg");
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(function(){
@@ -91,16 +91,16 @@ $(this).parent().find('img').attr("src", newimg);
 </script>
   <div class="box">
 <div class="mainmenu">
-<img src="">
-<a data-image = "" href=""> Home</a>
+<img src="corner.png">
+<a data-image = "corner.png" href=""> Home</a>
 <a data-image = "menucard.jpg" href="https://img.freepik.com/premium-vector/food-menu-design-template-restaurant_619264-58.jpg?w=2000"> Menu</a>
-<a href=""> FAQ</a>
+<a href="https://resources.finalsite.net/images/f_auto,q_auto/v1543217698/elmhurst205org/uhb19xgtdenn7okqsyjc/5334151411957024135.png"> FAQ</a>
 <a href=""> Contact</a>
 </div>
   </div>
   <div class="wd">
 <h1> Welcome to Delicious Corner</h1>
-<h4> <i>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
+<h4> <em>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
 <h2> Call 999999999 for reservations</h2>
 <div class="opt">
 <form action="" method="post">
