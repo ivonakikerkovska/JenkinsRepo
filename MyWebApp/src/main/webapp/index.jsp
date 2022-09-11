@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+   
    <style>
        body{
-  background-image="corner.png" href"https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg" ;
-   background-repeat: no-repeat;
-   background-attachment: fixed;  
-   background-size: cover;
   font-size:20px;
            color: white;
-           background-size: cover;
+           background-size: cover; 
        }
+      .bg-image {
+background-image: https://media.vanityfair.com/photos/603641763f81fd27feec1448/master/w_2560%2Cc_limit/096A1477.jpg;
+background-color: #cccccc;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
         .box{ width: 800px;
       float:right;
       border:1px solid none;}
