@@ -10,10 +10,9 @@
       .bg-image {
          background-image: url("corner.png");
          background-color: white;
-         height: 500px;
-         background-position: left;
+         height: 800px;
+         background-position: right center;
          background-repeat: no-repeat;
-         background-size: 100px;
          position: relative;
 }
      .box{ width: 800px;
@@ -109,12 +108,12 @@ $(this).parent().find('img').attr("src", newimg);
   </div>
   <div class="wd">
 <h1> Welcome to Delicious Corner</h1>
+     
 <h4> <em>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
 <h2> Call 070-472-552 for reservations</h2>
 <div class="opt">
 <form action="" method="post">
 <input type="button" value="ORDER NOW">
-   <img src="https://manofmany.com/wp-content/uploads/2019/02/21-Best-Outdoor-Dining-Experiences-in-Sydney-The-Golden-Sheaf-2.jpg">
 </form>
 </div>
 </div>
