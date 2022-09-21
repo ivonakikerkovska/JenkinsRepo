@@ -42,8 +42,6 @@
 			</executions>
 		</plugin>
 	</plugins>
-</build>
-  <build>
     <finalName>MyWebApp</finalName>
   </build>
 </project>
