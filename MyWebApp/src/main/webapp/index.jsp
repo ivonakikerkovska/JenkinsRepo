@@ -17,7 +17,7 @@
          }
      .box{ width: 600px;
         height: 600px:
-      float:right;
+      float:left center;
       border:1px solid none;}
       .box ul li{
           width: 80px;
