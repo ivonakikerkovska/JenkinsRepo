@@ -10,8 +10,8 @@
       .bg-image {
          background-image: url("corner.png");
          background-color: white;
-         height: 800px;
-         width: 1050px;
+         height: 600px;
+         width: 1010px;
          background-position: right center;
          background-repeat: no-repeat;
          }
