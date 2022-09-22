@@ -12,7 +12,7 @@
          background-color: white;
          height: 800px;
          width: 700px;
-         background-position: left center;
+         background-position: center center;
          background-repeat: no-repeat;
          }
      .box{ width: 600px;
