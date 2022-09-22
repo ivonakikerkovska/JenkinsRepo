@@ -16,8 +16,7 @@
          background-repeat: no-repeat;
          }
      .box{ width: 600px;
-        height: 600px:
-      float:left center;
+      float:right;
       border:1px solid none;}
       .box ul li{
           width: 80px;
