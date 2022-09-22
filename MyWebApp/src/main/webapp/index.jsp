@@ -9,9 +9,9 @@
       }
       .bg-image {
          background-image: url("corner.png");
-         background-color: black;
-         height: 700px;
-         background-position: right center;
+         background-color: white;
+         height: 900px;
+         background-position: center;
          background-repeat: no-repeat;
          }
      .box{ width: 600px;
