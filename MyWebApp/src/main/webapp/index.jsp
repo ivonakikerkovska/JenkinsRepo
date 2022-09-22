@@ -11,7 +11,7 @@
          background-image: url("corner.png");
          background-color: white;
          height: 800px;
-         width: 700px;
+         width: 2800px;
          background-position: center center;
          background-repeat: no-repeat;
          }
