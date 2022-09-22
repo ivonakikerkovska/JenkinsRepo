@@ -10,12 +10,13 @@
       .bg-image {
          background-image: url("corner.png");
          background-color: white;
-         height: 500px;
+         height: 600px;
          width: 1010px;
          background-position: right center;
          background-repeat: no-repeat;
          }
-     .box{ width: 500px;
+     .box{ width: 600px;
+        height: 600px:
       float:right;
       border:1px solid none;}
       .box ul li{
